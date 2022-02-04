@@ -9,6 +9,8 @@ const stopChangeColorBtn = document.querySelector('button[data-stop]');
 const bodyEl = document.querySelector('body');
 
 startChangeColorBtn.addEventListener('click', changeColor);
+startChangeColorBtn.classList.add('style-btn-start');
+stopChangeColorBtn.classList.add('style-btn-stop');
 
 function changeColor() {
   startChangeColorBtn.disabled = true;
