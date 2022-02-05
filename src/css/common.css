@@ -39,3 +39,50 @@ img {
 .style-btn-stop:hover {
   background-color: rgb(247, 56, 56);
 }
+
+.style-timer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #1f0101;
+}
+
+.style-input {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #1f0101;
+  background-color: #778899;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.style-btn-start-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: #778899;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.value {
+  color: rgb(202, 24, 0);
+  font-size: 70px;
+  font-weight: bold;
+}
